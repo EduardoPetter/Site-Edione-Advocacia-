@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — Edione de Moraes Advocacia
+  Ajuste o domínio para o endereço definitivo antes de publicar.
+  Como o site é uma página única (one-page) com âncoras, o sitemap
+  aponta para a home; se no futuro cada área de atuação virar uma
+  página própria (recomendado em SEO — ver briefing, seção 9), adicione
+  uma <url> para cada uma delas aqui.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.edionemoraesadvocacia.com.br/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

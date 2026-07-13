@@ -1,0 +1,7 @@
+# robots.txt — Edione de Moraes Advocacia
+# Libera a indexação completa do site para todos os buscadores.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.edionemoraesadvocacia.com.br/sitemap.xml
