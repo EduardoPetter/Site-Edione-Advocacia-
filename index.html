@@ -460,11 +460,16 @@
     <div class="mx-auto max-w-7xl px-5 lg:px-10 grid lg:grid-cols-[0.85fr_1.15fr] gap-16 items-center">
       <div class="relative" data-reveal>
         <div class="aspect-[4/5] rounded-2xl bg-navy overflow-hidden relative shadow-seal">
-          <div class="absolute inset-0 hero-texture opacity-70"></div>
-          <div class="absolute inset-0 flex items-end p-8">
+          <!-- Imagem de fundo (certifique-se de que o nome do arquivo aqui seja o mesmo que você subiu) -->
+          <img src="foto-edione.jpg" alt="Foto do Dr. Edione de Moraes" class="absolute inset-0 w-full h-full object-cover">
+          
+          <!-- Gradiente escuro para garantir que o texto branco fique legível sobre a foto -->
+          <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/30 to-transparent"></div>
+          
+          <div class="absolute inset-0 flex items-end p-8 z-10">
             <div>
               <span class="block font-mono text-[11px] uppercase tracking-[0.2em] text-amber mb-2">OAB/ES</span>
-              <span class="block font-display text-2xl font-semibold text-white leading-tight">Dra. Edione<br>de Moraes</span>
+              <span class="block font-display text-2xl font-semibold text-white leading-tight">Dr. Edione<br>de Moraes</span>
             </div>
           </div>
         </div>
